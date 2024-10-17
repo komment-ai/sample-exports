@@ -1,8 +1,11 @@
 ## Description
 
+
 The `claims.properties` file is a configuration file used in the CICS application project. It contains key-value pairs that define various settings and parameters for the application. These settings include file locations, prefixes, connection references, and logging directories.
 
+
 ## Usage instructions
+
 
 **Step 1: Review Configuration Options**
 
@@ -24,8 +27,11 @@ Update the configuration options in the `claims.properties` file if necessary. E
 
 Use the `claims.properties` file in the CICS application by referencing it in the application code. The application will read the configuration options from this file and use them to configure its behavior.
 
+
 ## Implementation details
+
 
 The `claims.properties` file is a simple text file with key-value pairs. The file is read by the CICS application, and the configuration options are used to configure the application's behavior. There are no complex functions or classes in this file, as it is simply a configuration file.
 
-DIAGRAM:NO
+
+

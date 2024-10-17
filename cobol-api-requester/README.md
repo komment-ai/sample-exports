@@ -1,14 +1,14 @@
-![Alt text](./wiki.md.svg)
-
-# CICS Application Wiki
-=====================================
+![Alt text](./README.md.svg)
 
 ## Introduction
+
 ---------------
 
 Welcome to the CICS Application Wiki, your comprehensive resource for understanding and working with the CICS Claims API and Service. This repository provides a robust and scalable solution for claims processing, leveraging the power of CICS (Customer Information Control System) to deliver efficient and reliable transactions. Dive into our documentation to explore the features, architecture, and usage of this powerful application.
 
+
 ## Description
+
 -------------
 
 This repository contains the CICS Claims API and Service, designed to facilitate claims processing for various industries. The application provides a standardized interface for submitting, processing, and retrieving claims data, ensuring seamless integration with existing systems. The repository includes:
@@ -19,7 +19,9 @@ This repository contains the CICS Claims API and Service, designed to facilitate
 * Configuration files: XML and JSON files for configuring the application
 * JCL files: Job Control Language files for compiling and executing COBOL programs
 
+
 ## Architecture
+
 -------------
 
 The CICS Application architecture consists of the following core components:
@@ -38,7 +40,9 @@ These components interact as follows:
 * The COBOL programs access configuration files for application settings
 * JCL files control the compilation and execution of COBOL programs
 
+
 ## Usage
+
 -----
 
 ### Installation
@@ -67,3 +71,4 @@ To run the CICS Application, follow these steps:
 * Execute the CICS Claims API and Service
 * Send requests to the API to process claims data
 * Monitor the application logs for errors and debugging information
+

@@ -1,7 +1,10 @@
 ## Description
+
 The `./source/config/claims.json` file is a configuration file that defines the API endpoints and data models for a claims processing system. It is written in JSON format and follows the OpenAPI (Swagger) 2.0 specification. The file provides a description of the API, including the available endpoints, request and response parameters, and data models.
 
+
 ## Usage instructions
+
 
 **Step 1: Review the API Endpoints**
 
@@ -19,7 +22,9 @@ Review the `definitions` section of the file to understand the response model. I
 
 Use the information in this file to implement an API client that can interact with the claims processing system. The client should be able to send a GET request to the `/claim/rule` endpoint with the required request parameters and parse the response model.
 
+
 ## Implementation details
+
 
 The file defines a single API endpoint, `/claim/rule`, which supports a GET request. The endpoint takes two required request parameters, `claimType` and `claimAmount`, and returns a response model with four properties: `claim-type`, `amount`, `status`, and `reason`.
 
@@ -32,4 +37,5 @@ The response model is defined in the `definitions` section of the file. The mode
 
 The file does not define any non-trivial named functions, methods, or classes.
 
-DIAGRAM:NO
+
+

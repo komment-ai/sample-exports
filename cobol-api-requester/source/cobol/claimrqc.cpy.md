@@ -1,7 +1,10 @@
 ## Description
+
 The `claimrqc.cpy` file is a COBOL copybook that defines the structure of a request claim container for the CICS Claims Application. It contains a set of predefined fields that make up a claim request, including the claim ID, type, amount, date, description, and provider. This copybook is used to define the layout of the claim request data that is exchanged between different components of the application.
 
+
 ## Usage instructions
+
 
 **Step 1: Include the copybook in your COBOL program**
 
@@ -21,7 +24,9 @@ MOVE 100.00 TO REQ-CLAIM-AMOUNT
 
 You can then use the claim request data in your program as needed. For example, you can use it to send a request to a CICS server or to store it in a database.
 
+
 ## Implementation details
+
 
 The `claimrqc.cpy` copybook defines a single record layout, `REQ-CLAIM-CONTAINER`, which contains two main fields: `REQ-CLAIM-RECORD` and `REQ-CLAIM-ACTION`. The `REQ-CLAIM-RECORD` field contains several subfields that define the details of the claim request, including the claim ID, type, amount, date, description, and provider. The `REQ-CLAIM-ACTION` field contains a single character that indicates the action to be taken on the claim request.
 
@@ -33,4 +38,5 @@ The `claimrqc.cpy` copybook defines a single record layout, `REQ-CLAIM-CONTAINER
 - `REQ-CLAIM-PROVIDER`: A field that contains the claim provider, which is a 21-character alphanumeric value.
 - `REQ-CLAIM-ACTION`: A field that contains the action to be taken on the claim request, which is a single character value.
 
-DIAGRAM:NO
+
+

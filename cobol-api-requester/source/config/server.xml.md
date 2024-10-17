@@ -1,7 +1,10 @@
 ## Description
+
 The `server.xml` file is a configuration file for the z/OS Connect EE server, which is part of the CICS application. It defines the server's settings, features, and behavior, including security, API and service configurations, and connection settings.
 
+
 ## Usage instructions
+
 
 **Step 1: Review and update the server settings**
 
@@ -23,7 +26,9 @@ Configure the connection settings, including the `zosconnect_endpointConnection`
 
 Review and update the logging settings, including the `safRegistry` and `safAuthorization` elements, to ensure that logging is configured correctly.
 
+
 ## Implementation details
+
 
 The `server.xml` file is an XML file that defines the configuration for the z/OS Connect EE server. It includes the following key elements:
 
@@ -36,4 +41,5 @@ The `server.xml` file is an XML file that defines the configuration for the z/OS
 
 The file uses a combination of XML elements and attributes to define the server's configuration. The elements and attributes are specific to the z/OS Connect EE server and are used to configure the server's behavior.
 
-DIAGRAM:NO
+
+

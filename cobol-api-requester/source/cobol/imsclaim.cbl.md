@@ -1,9 +1,12 @@
 ![Alt text](./imsclaim.cbl.md.svg)
 
 ## Description
+
 The `imsclaim.cbl` file is a COBOL program that serves as an IMS (Information Management System) application. It is designed to call an external REST API to evaluate claims based on business rules. The program uses the z/OS Connect EE API Requester function to make the API call. It processes input messages from a queue, calls the API, and then returns the output message to the queue.
 
+
 ## Usage instructions
+
 
 **Step 1: Configure the IMS environment**
 
@@ -25,7 +28,9 @@ The program will process input messages from the queue, calling the API for each
 
 The program will return the output messages to the queue, including the result of the API call.
 
+
 ## Implementation details
+
 
 The program uses the following functions and variables:
 
@@ -43,4 +48,5 @@ The program uses the following copybooks:
 * `CLAIMINF`: A copybook that defines the API info data structure.
 * `IMSCLAIC`: A copybook that defines the IMS claim data structure.
 
-DIAGRAM:YES
+
+

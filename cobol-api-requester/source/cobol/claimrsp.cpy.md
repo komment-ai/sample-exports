@@ -1,7 +1,10 @@
 ## Description
+
 The `claimrsp.cpy` file is a COBOL copybook that defines the structure for a response JSON schema in a CICS application. It contains the generated language structure for the `getClaimRule_200_response.json` schema, which was created using the `DFHJS2LS` tool at mapping level `4.3`. The copybook defines a response body with optional fields for claim type, amount, status, and reason.
 
+
 ## Usage instructions
+
 
 **Step 1: Include the copybook in your COBOL program**
 
@@ -34,7 +37,9 @@ Populate the response body with data using the defined fields. For example:
 
 Use the response body in your COBOL program as needed. For example, you can use it to return a response to a web service request.
 
+
 ## Implementation details
+
 
 The `claimrsp.cpy` copybook defines the following fields:
 
@@ -49,4 +54,5 @@ The `claimrsp.cpy` copybook defines the following fields:
 
 The copybook uses the `PIC` clause to define the format of each field, and the `SYNC` clause to ensure that the fields are properly aligned.
 
-DIAGRAM:NO
+
+

@@ -1,7 +1,10 @@
 ## Description
+
 The `claiminf.cpy` file is a COBOL copybook that defines a set of constants and variables used in the CICS application. Specifically, it contains definitions for API-related information, such as API names, paths, and methods.
 
+
 ## Usage instructions
+
 
 **Step 1: Include the copybook in your COBOL program**
 
@@ -15,7 +18,9 @@ Once the copybook is included, you can use the defined variables and constants i
 
 If you need to change the API-related information, you can modify the copybook accordingly. However, be sure to update all programs that use the copybook to reflect the changes.
 
+
 ## Implementation details
+
 
 The copybook defines the following variables and constants:
 
@@ -28,4 +33,5 @@ The copybook defines the following variables and constants:
 
 These definitions are used to provide a standardized way of accessing API-related information throughout the application.
 
-DIAGRAM:NO
+
+

@@ -1,7 +1,10 @@
 ## Description
+
 The `imsclaic.cpy` file is a COBOL copybook that defines the structure of input and output data for a CICS application. It contains two main data areas: `INPUT-MSG` and `OUTPUT-MSG`, which represent the format of terminal input and output messages, respectively. The copybook is used to define the layout of data exchanged between the application and the terminal.
 
+
 ## Usage instructions
+
 
 **Step 1: Include the copybook in your COBOL program**
 
@@ -38,7 +41,9 @@ IF IN-LL NOT NUMERIC
    DISPLAY "Invalid input: LL must be numeric"
    STOP RUN
 ```
+
 ## Implementation details
+
 
 The `imsclaic.cpy` copybook defines two main data areas:
 
@@ -55,4 +60,5 @@ Each data area contains several fields, including:
 * `IN-CLAIM-DESC` and `OUT-CLAIM-DESC`: claim description
 * `OUT-MESSAGE`: output message
 
-DIAGRAM:NO
+
+

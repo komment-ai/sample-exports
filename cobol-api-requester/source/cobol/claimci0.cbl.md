@@ -1,9 +1,12 @@
 ![Alt text](./claimci0.cbl.md.svg)
 
 ## Description
+
 The `claimci0.cbl` file is a COBOL program that provides a CICS (Customer Information Control System) interface for managing health insurance claims. It allows users to submit, read, and update claim records stored in a VSAM (Virtual Storage Access Method) KSDS (Key-Sequenced Data Set) data set. The program uses z/OS Connect to call a REST API to evaluate claims based on business rules.
 
+
 ## Usage instructions
+
 
 **Step 1: Compile and Link the Program**
 
@@ -25,7 +28,9 @@ Start the CICS region and ensure that it is configured to use the `claimci0` pro
 
 Test the program by submitting, reading, and updating claim records using the CICS interface. Verify that the program correctly evaluates claims based on business rules and updates the claim records accordingly.
 
+
 ## Implementation details
+
 
 The program uses the following functions and sections:
 
@@ -47,4 +52,5 @@ The program uses the following variables and parameters:
 * `REQ-CLAIM-TYPE`: The claim type specified in the request.
 * `REQ-CLAIM-AMOUNT`: The claim amount specified in the request.
 
-DIAGRAM:YES
+
+

@@ -1,7 +1,10 @@
 ## Description
+
 The `compile.jcl` file is a Job Control Language (JCL) script used to compile and link-edit a CICS COBOL program. It is part of a larger CICS application project that utilizes z/OS Connect. The script provides a set of instructions for the mainframe to compile the COBOL source code, link-edit the resulting object code, and create a load module.
 
+
 ## Usage instructions
+
 
 **Step 1: Update the JCL script with dataset names**
 
@@ -27,7 +30,9 @@ Submit the JCL script to the mainframe for execution, which will compile and lin
 
 Verify that the load module has been created successfully and is ready for use in the CICS application.
 
+
 ## Implementation details
+
 
 The JCL script consists of three main sections:
 
@@ -45,4 +50,5 @@ The script uses various parameters and configuration options, including:
 *   `ZCEEPRFX`: The high-level qualifier for the z/OS Connect data set.
 *   `USER.LOAD.LIB`: The name of the PDSE library where the load module will be stored.
 
-DIAGRAM:NO
+
+

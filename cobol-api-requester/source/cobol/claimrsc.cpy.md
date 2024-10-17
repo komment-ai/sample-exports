@@ -1,7 +1,10 @@
 ## Description
+
 The `claimrsc.cpy` file is a COBOL copybook that defines the structure of a response container for a claims application. It is used to format the data returned by the application, including claim details and CICS response codes.
 
+
 ## Usage instructions
+
 
 **Step 1: Include the copybook in your COBOL program**
 
@@ -31,7 +34,9 @@ You need to define a variable that conforms to the `RSP-CLAIM-CONTAINER` structu
 
 You need to populate the `CLAIM-RESPONSE` variable with data returned by the claims application. This may involve moving data from other variables or structures into the corresponding fields of the `CLAIM-RESPONSE` structure.
 
+
 ## Implementation details
+
 
 The `claimrsc.cpy` copybook defines a single structure, `RSP-CLAIM-CONTAINER`, which contains several fields:
 
@@ -41,3 +46,4 @@ The `claimrsc.cpy` copybook defines a single structure, `RSP-CLAIM-CONTAINER`, w
 * `RSP-CLAIM-OUTPUT-MESSAGE`: a message returned by the claims application.
 
 Note that the copybook does not contain any executable code, but rather defines a data structure that can be used by COBOL programs to format and return data.
+

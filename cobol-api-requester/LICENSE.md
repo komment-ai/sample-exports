@@ -1,19 +1,36 @@
 ## Description
-The `./LICENSE` file is a text file that contains the terms and conditions of the Apache License, Version 2.0, under which the project is distributed. It outlines the permissions and limitations of using, reproducing, and distributing the project's software.
 
-The file is a standard Apache License template, which is a widely used open-source license that allows users to freely use, modify, and distribute the software. The license is permissive, meaning that it does not restrict users from using the software in any way, as long as they comply with the terms and conditions outlined in the license.
+The `./LICENSE` file is a text document that outlines the terms and conditions under which the project's software can be used, modified, and distributed. It is a license agreement between the copyright holder (IBM) and anyone who uses the software.
 
-## Implementation details
-The license file contains the following key elements:
 
-* Definitions: The license defines key terms, such as "License", "Licensor", "Legal Entity", "You", "Source", "Object", "Work", and "Derivative Works".
-* Grant of Copyright License: The license grants users a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
-* Grant of Patent License: The license grants users a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work.
-* Redistribution: The license outlines the conditions under which users can redistribute the Work or Derivative Works thereof.
-* Disclaimer of Warranty: The license disclaims all warranties and conditions, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE.
-* Limitation of Liability: The license limits the liability of the Licensor and Contributors for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work.
+## Usage Instructions
 
-## Usage instructions
-This file does not require any specific usage instructions, as it is a standard license file that outlines the terms and conditions of using the project's software. However, users should review the license carefully to understand their rights and obligations when using the software.
 
-DIAGRAM:NO
+**Step 1: Read and Understand the License**
+
+Read the `./LICENSE` file carefully to understand the terms and conditions of using the software. The license is written in a formal and technical style, so it's essential to take the time to understand the language and concepts used.
+
+**Step 2: Verify Compliance with the License**
+
+Verify that your use of the software complies with the terms and conditions outlined in the license. This includes ensuring that you are not violating any patent or trademark rights, and that you are not using the software for any purpose that is not permitted under the license.
+
+**Step 3: Obtain a Copy of the License**
+
+If you plan to distribute the software or any modifications you make to it, you must include a copy of the `./LICENSE` file with your distribution. This ensures that anyone who receives your distribution is aware of the terms and conditions of using the software.
+
+
+## Implementation Details
+
+
+The `./LICENSE` file is written in plain text and contains a formal license agreement. The license is based on the Apache License, Version 2.0, and includes terms and conditions for using, modifying, and distributing the software. The license also includes a disclaimer of warranty and a limitation of liability.
+
+The license agreement includes the following key points:
+
+* The software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* The software is provided under a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license.
+* The software is subject to patent claims licensable by the copyright holder, and any patent litigation against the copyright holder or any contributor may terminate the patent license.
+* The software may be redistributed, but any modified files must carry prominent notices stating that they have been changed.
+* The software may be used for any purpose, including commercial purposes, but any use must comply with the terms and conditions of the license.
+
+
+
