@@ -1,10 +1,10 @@
 # Sample Exports - Komment
 
-This repository contains Komment wikis exported as markdown output.
+This repository contains a few Komment wikis exported as markdown output.
 
-Users can have this output directly pushed to their own code repositories as part of a Komment pipeline.
+Users can have this output directly pushed to their own code repositories as part of a Komment pipeline. This enables developers to always have their docs reside alongside their code.
 
-Developers can then leverage these outputs to build downstream applications, automate processes, and gain valuable insights from the data and insights extracted by Komment from a codebase.
+These structured exported outputs can be leveraged to build downstream applications, automate processes, and gain valuable insights from the data and insights extracted by Komment from a codebase.
 
 ---
 ### Contribution
