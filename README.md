@@ -13,4 +13,4 @@ We welcome you to share the exported output of your own Komment wikis as a pull 
 
 ### License
 
-This repository is licensed under the MIT License. See the LICENSE file for more details.
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
