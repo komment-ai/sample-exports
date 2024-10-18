@@ -4,7 +4,7 @@ This repository contains a few Komment wikis exported as markdown output.
 
 Users can have this output directly pushed to their own code repositories as part of a Komment pipeline. This enables developers to always have their docs reside alongside their code.
 
-These structured exported outputs can be leveraged to build downstream applications, automate processes, and gain valuable insights from the data and insights extracted by Komment from a codebase.
+These structured exported outputs can also be leveraged to build downstream applications and automate processes based on the data and insights extracted from a codebase by Komment.
 
 ---
 ### Contribution
