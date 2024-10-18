@@ -1,6 +1,6 @@
 # Sample Exports - Komment
 
-This repository contains *Komment* wikis exported as markdown output.
+This repository contains Komment wikis exported as markdown output.
 
 Users can have this output directly pushed to their own code repositories as part of a Komment pipeline.
 
